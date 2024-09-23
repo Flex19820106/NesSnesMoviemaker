@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NES_SNES_Movie_Maker"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="NES_SNES_Movie_Maker.MainWindow"
+        Icon="res/Logo of youtube(middle).png"
+        Background="Beige"
+        mc:Ignorable="d"
+        Title="NES SNES Movie Maker" Height="300" Width="300">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="45">
+            <MenuItem HorizontalAlignment="Left" Background="#FFA7D4D4" Header="Файл" Height="20" Width="45">
+                <MenuItem Header="Открыть movie файлы SNES" Click="ListBoxItem_MouseLeftButtonDown"></MenuItem>
+                <MenuItem Header="Открыть movie файлы NES" Click="ListBoxItem_MouseLeftButtonDown"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

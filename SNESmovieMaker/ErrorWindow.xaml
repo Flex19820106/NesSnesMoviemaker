@@ -1,0 +1,14 @@
+﻿<Window x:Class="NES_SNES_Movie_Maker.ErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NES_SNES_Movie_Maker"
+        mc:Ignorable="d"
+        Background="Beige"
+        Title="Ошибка сборки" Height="264.761" Width="390.228">
+    <Grid>
+        <TextBlock Name="textBlockException" FontSize="12" FontWeight="DemiBold" TextAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Сборка не собрана. Попробуйте ещё раз." VerticalAlignment="Top" Width="357" Height="211" Margin="17,10,10,0"/>
+        <Button FontSize="20" Content="Ок" HorizontalAlignment="Center" VerticalAlignment="Center" Width="84" Margin="150,156,148,47" Height="32" Click="Button_Ok_Click"/>
+    </Grid>
+</Window>
